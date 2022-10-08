@@ -1,11 +1,11 @@
-body {
-	font-family: Arial, sans-serif;
-	margin: auto;
-	width: 85%;
-	max-width: 1000px;
-	text-align: justify;
-	color: #522F00;
-    background-color: #FFF5E8;
+body {  									/*html oldal törzséhez tartozó beállítások*/
+	font-family: Arial, sans-serif; 		/*betűtípus beállítása(Arial,sans-serif-re)*/
+	margin: auto;							/*margó beállítása autómatikusra*/
+	width: 85%;								/*szélesség beállítása 85%-ra*/
+	max-width: 1000px;						/*maximum szélesség 1000 képkocka*/
+	text-align: justify;					/*szöveg igazítása sorkizártra*/
+	color: #522F00;					   /*szín beállítása #522F00-re*/
+    background-color: #FFF5E8;			   /*háttér színének beállítás #FFF5E8-re*/
 }
 
 p:first-letter {
