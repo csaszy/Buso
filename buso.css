@@ -8,23 +8,23 @@ body {  									/*html oldal törzséhez tartozó beállítások*/
     background-color: #FFF5E8;			   /*háttér színének beállítás #FFF5E8-re*/
 }
 
-p:first-letter {
-	margin-left: 20px;
+p:first-letter {							/*bekezdés első betűjének beállítása*/
+	margin-left: 20px;						/*bal oldali margóhoz igazítása 20 képkockára*/
 }
 
-header {
-	background-image: url('maglya.jpg');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	height: 250px; 
+header {									/*fejléc beállításai*/
+	background-image: url('maglya.jpg');	/*háttérkép beállítása maglya.jpg-re*/
+	background-repeat: no-repeat;			/*háttérkép ne ismételődjön*/
+	background-size: 100% 100%;				/*háttér méretének kiterjesztése 100%*/
+	height: 250px; 							/*magasság 250px*/
 }
 
-h1,h2{
-	color: #B16400;
+h1,h2{										/*h1,h2 címsorok beállítása*/
+	color: #B16400;					   /*színe:B16400*/
 }
 
-img {
-	border: 2px solid #FFEBD0;
+img {										/*képek beállítása*/
+	border: 2px solid #FFEBD0;			   /*keret legyen 2 képkocka vastag, */
 	border-radius: 5px;
 	padding: 5px;
 	margin: 5px 15px;
