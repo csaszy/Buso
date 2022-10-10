@@ -33,39 +33,39 @@ img {										/*képek beállítása*/
     min-width: 300px;
 }
 
-.balra {
-	float: left;
-}
-.jobbra {
-	float: right;
-}
+.balra {										/**/
+	float: left;								/**/
+}												/**/
+.jobbra {										/**/
+	float: right;								/**/
+}												/**/
 
-q {
-	font-style: italic;
-}
+q {												/**/
+	font-style: italic;							/**/
+}												/**/
 
-li {
-	margin-bottom: 25px;
-    list-style-image: url(jel.png);
-}
+li {											/**/
+	margin-bottom: 25px;						/**/
+    list-style-image: url(jel.png);				/**/
+}												/**/
 
-footer{
-	background-color: #FFEBD0;
-	background-image: url('buso_logo.png');
-	background-repeat: no-repeat;
-	background-position: right center;
-	background-size: 55px; 
-	height: 60px;
-	padding-top: 20px;
-	margin-bottom: 0px;
-	font-size: 0.8em;
-}
+footer{											/**/
+	background-color: #FFEBD0;					/**/
+	background-image: url('buso_logo.png');		/**/
+	background-repeat: no-repeat;				/**/
+	background-position: right center;			/**/
+	background-size: 55px; 						/**/
+	height: 60px;								/**/
+	padding-top: 20px;							/**/
+	margin-bottom: 0px;							/**/
+	font-size: 0.8em;							/**/
+}												/**/
 
-@media screen and (max-width:600px) {
-  .balra, .jobbra {
-	float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+@media screen and (max-width:600px) {			/**/
+  .balra, .jobbra {								/**/
+	float: none;								/**/
+    display: block;								/**/
+    margin-left: auto;							/**/
+    margin-right: auto;							/**/
+  }												/**/
+}												/**/
