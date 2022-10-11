@@ -36,10 +36,10 @@ img {										/*képek beállítása*/
 }
 
 .balra {										/*balra nevű osztály beállítása*/
-	float: left;								/**/
+	float: left;								/*egy másik elemen belül balra igazítás*/
 }
 .jobbra {										/*jobbra nevű osztály beállítása*/
-	float: right;								/**/
+	float: right;								/*egy másik elemen belül jobbra igazítás*/
 }
 
 q {												/*rövid idézet beállítása*/
@@ -63,11 +63,11 @@ footer{											/*lábléc beállítása*/
 	font-size: 0.8em;							/*betűméret legyen 0.8-as betűméretre*/
 }
 
-@media screen and (max-width:600px) {			/**/
-  .balra, .jobbra {								/**/
-	float: none;								/**/
-    display: block;								/**/
-    margin-left: auto;							/**/
-    margin-right: auto;							/**/
-  }												/**/
-}												/**/
+@media screen and (max-width:600px) {			/*ha a képernyő szélessége 600 pixel alatt lesz, akkor lefutnak a benne található utasítások*/
+  .balra, .jobbra {								/*a 'balra' és 'jobbra' osztályok beállítása*/
+	float: none;								/*nincs igazítás*/
+    display: block;								/*a megjelenítendő elemet egy új bekezdésben fogja megjeleníteni*/
+    margin-right: auto;							/*jobb oldali margó legyen automatikus méretű*/
+    margin-left: auto;							/*bal oldali margó legyen automatikus méretű*/
+  }
+}
