@@ -30,7 +30,7 @@ img {										/*képek beállítása*/
 	border-radius: 5px;						/*keret lekerekítése*/
 	padding: 5px;							/*kitöltés*/
 	margin: 5px 15px;						/*margó távolsága fent: 5 képkocka lent: 15 képkocka*/
-	width: 15em; 							/*szélesség*/
+	width: 15em; 							/*szélesség 15ös*/
 	background-color: white;			   /*háttér színe: fehér*/
     min-width: 300px;						/*minimum szélesség: 300px*/
 }
