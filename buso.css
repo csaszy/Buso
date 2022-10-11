@@ -1,3 +1,5 @@
+/*Verhás Gergő, Varga Dávid(cigi), Császár Bálint*/
+
 body {  									/*html oldal törzséhez tartozó beállítások*/
 	font-family: Arial, sans-serif; 		/*betűtípus beállítása(Arial,sans-serif-re)*/
 	margin: auto;							/*margó beállítása autómatikusra*/
@@ -33,33 +35,33 @@ img {										/*képek beállítása*/
     min-width: 300px;						/*minimum szélesség: 300px*/
 }
 
-.balra {										/**/
+.balra {										/*balra nevű osztály beállítása*/
 	float: left;								/**/
-}												/**/
-.jobbra {										/**/
+}
+.jobbra {										/*jobbra nevű osztály beállítása*/
 	float: right;								/**/
-}												/**/
+}
 
-q {												/**/
-	font-style: italic;							/**/
-}												/**/
+q {												/*rövid idézet beállítása*/
+	font-style: italic;							/*a betű stílust beállítja dőltre*/
+}
 
-li {											/**/
-	margin-bottom: 25px;						/**/
-    list-style-image: url(jel.png);				/**/
-}												/**/
+li {											/*listaelem beállítása*/
+	margin-bottom: 25px;						/*margó távolsága lent legyen 25 képkocka*/
+    list-style-image: url(jel.png);				/*kicseráli a lista elemet jelölő pontot a jel.png nevezetű képre*/
+}
 
-footer{											/**/
-	background-color: #FFEBD0;					/**/
-	background-image: url('buso_logo.png');		/**/
-	background-repeat: no-repeat;				/**/
-	background-position: right center;			/**/
-	background-size: 55px; 						/**/
-	height: 60px;								/**/
-	padding-top: 20px;							/**/
-	margin-bottom: 0px;							/**/
-	font-size: 0.8em;							/**/
-}												/**/
+footer{											/*lábléc beállítása*/
+	background-color: #FFEBD0;					/*háttérszín legyen: #FFEBD0*/
+	background-image: url('buso_logo.png');		/*háttérkép legyen: buso_logo.png*/
+	background-repeat: no-repeat;				/*beállítja, hogy a háttérkép ne ismétlődjön*/
+	background-position: right center;			/*háttérkép kezdő pozíciója legyen a jobb oldalon középen*/
+	background-size: 55px; 						/*háttérkép mérete legyen 55 képkocka*/
+	height: 60px;								/*magassága legyen 60 képkocka*/
+	padding-top: 20px;							/*fenti kitöltés legyen 20 képkocka*/
+	margin-bottom: 0px;							/*margó távolsága alul legyen 0 pixel*/
+	font-size: 0.8em;							/*betűméret legyen 0.8-as betűméretre*/
+}
 
 @media screen and (max-width:600px) {			/**/
   .balra, .jobbra {								/**/
